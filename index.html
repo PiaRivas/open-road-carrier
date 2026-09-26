@@ -3,75 +3,269 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Open Road Carrier</title>
+  <title>Open Road Carrier | Invest in Trucking</title>
+  <meta name="description" content="Invest in Open Road Carrier and earn asset-backed returns from a professionally managed trucking fleet.">
   <link rel="stylesheet" href="style.css">
+  <noscript>
+    <style>
+      /* Without JS the slide-switcher can't run, so fall back to a plain
+         scrolling page rather than trapping visitors on slide one. */
+      html, body { overflow: auto !important; height: auto !important; }
+      .slides-viewport { position: static !important; overflow: visible !important; }
+      .slides-track { display: block !important; transform: none !important; width: 100% !important; height: auto !important; transition: none !important; }
+      .slide { width: 100% !important; height: auto !important; overflow: visible !important; }
+      .top-nav, .slide-progress { display: none !important; }
+      body { padding-top: 0 !important; }
+    </style>
+  </noscript>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1>Open Road Carrier</h1>
-      <nav>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+  <header class="top-nav">
+    <a href="#slide-home" class="brand" data-slide="0">
+      <img src="assets/logo.png" alt="Open Road" class="brand-logo">
+    </a>
+    <nav class="slide-nav">
+      <a href="#slide-home" data-slide="0">Home</a>
+      <a href="#slide-opportunities" data-slide="1">Opportunities</a>
+      <a href="#slide-how" data-slide="2">How It Works</a>
+      <a href="#slide-principles" data-slide="3">Principles</a>
+      <a href="#slide-protection" data-slide="4">Protection</a>
+      <a href="#slide-faq" data-slide="5">FAQ</a>
+      <a href="#slide-contact" data-slide="6" class="button button-small">Invest Now</a>
+    </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h2>Reliable Freight, Coast to Coast</h2>
-        <p>Trusted trucking and logistics for businesses that need their cargo delivered on time, every time.</p>
-        <a class="button" href="#contact">Get a Quote</a>
-      </div>
-    </section>
+  <div class="slides-viewport">
+    <div class="slides-track">
 
-    <section id="services" class="section">
-      <div class="container">
-        <h2>Our Services</h2>
-        <div class="cards">
-          <div class="card">
-            <h3>Full Truckload</h3>
-            <p>Dedicated capacity for large shipments across the country.</p>
-          </div>
-          <div class="card">
-            <h3>LTL Freight</h3>
-            <p>Cost-effective shipping for smaller loads.</p>
-          </div>
-          <div class="card">
-            <h3>Logistics Planning</h3>
-            <p>End-to-end route and fleet management support.</p>
+      <section id="slide-home" class="slide slide-hero">
+        <video class="hero-video" autoplay muted loop playsinline poster="assets/frame1.jpg">
+          <source src="assets/open-road.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="slide-inner hero-content">
+          <p class="eyebrow">Open Road Carrier &mdash; Investments</p>
+          <h1>Invest in the engines of the economy.</h1>
+          <p class="hero-sub">Every truck we put on the road keeps something moving that matters &mdash; medicine to a pharmacy, parts to a factory, food to a family.</p>
+          <a href="#slide-contact" data-slide="6" class="button">Invest in Logistics</a>
+          <div class="stats-row">
+            <div class="stat-block">
+              <strong class="stat-count" data-target="15" data-decimals="0" data-suffix="M+">0M+</strong>
+              <span>Registered commercial trucks (10k+ lb) in the U.S.</span>
+            </div>
+            <div class="stat-block">
+              <strong class="stat-count" data-target="14" data-decimals="0" data-suffix="B tons">0B tons</strong>
+              <span>Freight moved by truck every year</span>
+            </div>
+            <div class="stat-block">
+              <strong class="stat-count" data-target="90.3" data-decimals="1" data-suffix="%">0%</strong>
+              <span>Share of the nation's goods carried by truck</span>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="about" class="section alt">
-      <div class="container">
-        <h2>About Us</h2>
-        <p>Open Road Carrier is committed to safe, on-time delivery backed by an experienced team and a modern fleet.</p>
-      </div>
-    </section>
+      <section id="slide-opportunities" class="slide">
+        <div class="slide-inner">
+          <h2 class="section-title">Two ways to invest</h2>
+          <p class="section-intro">We seek out opportunities in trucking that offer compelling, risk-adjusted returns &mdash; backed by real, revenue-generating equipment rather than paper promises. It's capital you can point to on a map: a real truck, a real driver, real freight moving for people who need it. Choose the structure that fits how you want your capital to work.</p>
+          <div class="cards-row">
+            <div class="invest-card">
+              <div class="invest-card-media" style="background-image:url('assets/frame1.jpg')"></div>
+              <span class="stat"><strong>50%</strong> of net profit</span>
+              <h3>Profit-Sharing Partnership</h3>
+              <p>You provide the capital. We buy the truck, place a vetted driver, and manage insurance, maintenance, dispatch, and compliance. Every dollar the truck earns is split 50/50.</p>
+            </div>
+            <div class="invest-card">
+              <div class="invest-card-media" style="background-image:url('assets/frame2.jpg')"></div>
+              <span class="stat"><strong>20%</strong> fixed annual return</span>
+              <h3>Fixed Annual Return</h3>
+              <p>Prefer predictable income? Earn a fixed 20% annual return, paid on a regular schedule &mdash; regardless of swings in freight rates or fuel costs.</p>
+            </div>
+          </div>
 
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <form id="contact-form">
-          <input type="text" name="name" placeholder="Your name" required>
-          <input type="email" name="email" placeholder="Your email" required>
-          <textarea name="message" placeholder="How can we help?" rows="4" required></textarea>
-          <button type="submit">Send</button>
-        </form>
-      </div>
-    </section>
-  </main>
+          <div class="calculator">
+            <h3>See it in numbers</h3>
+            <p class="calculator-intro">Drag to your investment amount and compare the two structures.</p>
+            <label class="calc-amount-label" for="calc-amount">
+              Investment amount
+              <span class="calc-amount-value">$<span id="calc-amount-display">50,000</span></span>
+            </label>
+            <input type="range" id="calc-amount" min="50000" max="250000" step="5000" value="50000" aria-describedby="calc-amount-display">
+            <div class="calc-results">
+              <div class="calc-result">
+                <span class="calc-result-label">Fixed Annual Return <em>(20%)</em></span>
+                <span class="calc-result-value">$<span id="calc-fixed-value">10,000</span><small>/year</small></span>
+                <p class="calc-note">A fixed, contractual payout &mdash; the number above is exact.</p>
+              </div>
+              <div class="calc-result calc-result-variable">
+                <span class="calc-result-label">Profit-Sharing Partnership <em>(50%)</em></span>
+                <span class="calc-result-value calc-result-value-text">Performance-based</span>
+                <p class="calc-note">This one isn't fixed on purpose &mdash; your return moves with the truck's real freight revenue. Request the deck for illustrative truck-level P&amp;L examples.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 Open Road Carrier. All rights reserved.</p>
+      <section id="slide-how" class="slide alt">
+        <div class="slide-inner">
+          <h2 class="section-title">How it works</h2>
+          <p class="section-intro">From sourcing the right truck to keeping it earning on the road, here's what happens after you invest. Typical setup duration: 2&ndash;3 months from purchase to launch.</p>
+          <div class="steps-grid timeline">
+            <div class="step" tabindex="0">
+              <span class="step-number">0</span>
+              <h4>Truck Purchase</h4>
+              <p class="step-desc"><span>Working with our mechanic, we source the best used truck on the market at the best price.</span></p>
+            </div>
+            <div class="step" tabindex="0">
+              <span class="step-number">1</span>
+              <h4>Conditioning &amp; Preparation</h4>
+              <p class="step-desc"><span>Our mechanic performs all necessary conditioning and safety upgrades, with the goal of minimizing risk.</span></p>
+            </div>
+            <div class="step" tabindex="0">
+              <span class="step-number">2</span>
+              <h4>Formalization &amp; Setup</h4>
+              <p class="step-desc"><span>We handle taxes, permits, and insurance so the truck operates fully legally in the United States.</span></p>
+            </div>
+            <div class="step" tabindex="0">
+              <span class="step-number">3</span>
+              <h4>Launch &amp; Ongoing Tracking</h4>
+              <p class="step-desc"><span>Drivers are evaluated and assigned loads, and the truck's performance is tracked continuously.</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="slide-principles" class="slide">
+        <div class="slide-inner">
+          <h2 class="section-title">Our investment principles</h2>
+          <p class="section-intro">Return comes first &mdash; but it isn't the only thing we ask you to measure.</p>
+          <div class="principles-grid">
+            <div class="principle principle-impact">
+              <h4>Real Impact, Real Returns</h4>
+              <p>Every dollar funds an actual truck moving actual freight &mdash; supporting drivers and small carriers, and keeping the supply chains people depend on running. Purpose and performance, not one instead of the other.</p>
+            </div>
+            <div class="principle">
+              <h4>Asset-Backed Returns</h4>
+              <p>Every dollar invested is tied to a physical, revenue-generating truck &mdash; real collateral, not paper promises.</p>
+            </div>
+            <div class="principle">
+              <h4>Diversified Fleet</h4>
+              <p>We spread capital across truck types, freight lanes, and carrier partners to reduce single-point risk.</p>
+            </div>
+            <div class="principle">
+              <h4>Vetted Operators</h4>
+              <p>We partner only with experienced, safety-rated drivers and fleet operators with proven records.</p>
+            </div>
+            <div class="principle">
+              <h4>Data-Driven Routing</h4>
+              <p>We use freight demand and rate data to place trucks on the most profitable lanes.</p>
+            </div>
+            <div class="principle">
+              <h4>Maintenance Oversight</h4>
+              <p>A dedicated operations team manages upkeep and uptime to protect asset value over time.</p>
+            </div>
+            <div class="principle">
+              <h4>Transparent Reporting</h4>
+              <p>Investors receive regular updates on utilization, revenue, and maintenance.</p>
+            </div>
+            <div class="principle">
+              <h4>Long-Term Partnership</h4>
+              <p>We work closely with investors to align fleet growth with their return objectives.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="slide-protection" class="slide alt">
+        <div class="slide-inner">
+          <h2 class="section-title">Safety, insurance &amp; protection</h2>
+          <p class="section-intro">Our investment team evaluates every truck and lane with institutional discipline, backed by an operations team that lives and breathes trucking &mdash; keeping every truck insured, monitored, and outfitted before it ever hauls a load.</p>
+          <div class="protection-grid">
+            <div class="protection-card">
+              <h4>Commercial Insurance</h4>
+              <p>Third-party liability coverage up to <strong>$1,000,000</strong>.</p>
+            </div>
+            <div class="protection-card">
+              <h4>Cargo Insurance</h4>
+              <p>Cargo coverage up to <strong>$100,000</strong> per load.</p>
+            </div>
+            <div class="protection-card">
+              <h4>Physical Damage Insurance</h4>
+              <p>Optional coverage protecting ~<strong>50%</strong> of the total investment.</p>
+            </div>
+            <div class="protection-card">
+              <h4>24/7 Monitoring</h4>
+              <p>GPS tracking, engine-monitoring sensors, and dash cameras on every truck.</p>
+            </div>
+            <div class="protection-card">
+              <h4>Protective Conditioning</h4>
+              <p>Deer guards, headache racks, and other upgrades fitted before launch.</p>
+            </div>
+            <div class="protection-card">
+              <h4>DOT Compliance</h4>
+              <p>Taxes, permits, and insurance handled up front to operate fully legally.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="slide-faq" class="slide">
+        <div class="slide-inner">
+          <h2 class="section-title">Frequently asked questions</h2>
+          <div class="faq-list">
+            <details class="faq-item" open>
+              <summary>Why is now a good time to invest in trucking?</summary>
+              <p>Trade policy, tariffs, and a broader push to bring manufacturing back to the U.S. are reshaping supply chains in real time. Whatever the political outcome, one reality doesn't change: goods still have to move, and in the U.S. that overwhelmingly means by truck. As freight volumes grow and per-mile rates climb, that upside flows directly to the carriers and equipment already on the road &mdash; not to a policy bet or a ticker symbol. It's also a chance to put your capital somewhere you can point to and say what it's doing &mdash; not just what it might return.</p>
+            </details>
+            <details class="faq-item">
+              <summary>How will I know how my investment is performing?</summary>
+              <p>You get two layers of visibility: real-time GPS tracking gives you 24/7 insight into where your truck is and whether it's on the road, and we send detailed quarterly reports covering revenue, expenses, maintenance, and your payout &mdash; whether that's your share of profit or your fixed return.</p>
+            </details>
+            <details class="faq-item">
+              <summary>What's the difference between the two investment formats?</summary>
+              <p>With the Profit-Sharing Partnership, you fund the truck and split 50% of the net profit it generates &mdash; your upside grows with performance. With the Fixed Annual Return, you earn a flat 20% per year on a regular schedule, regardless of month-to-month swings in freight rates or fuel costs.</p>
+            </details>
+            <details class="faq-item">
+              <summary>What happens if a truck needs repairs or is out of service?</summary>
+              <p>Our operations team handles maintenance and repairs directly, and every truck carries physical damage insurance covering roughly 50% of the total investment &mdash; helping minimize downside risk and keep downtime and losses to a minimum.</p>
+            </details>
+            <details class="faq-item">
+              <summary>How much do I need to invest to get started?</summary>
+              <p>Investment size is flexible &mdash; from funding a single truck to backing a small dedicated fleet. Reach out and we'll walk through what fits your goals.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="slide-contact" class="slide slide-contact-cta">
+        <div class="slide-inner">
+          <h2>Become a partner. Power the fleet.</h2>
+          <p class="cta-copy">Ready to put your capital behind work that actually moves the country forward &mdash; and earn a real return doing it? Tell us about your goals and we'll follow up.</p>
+          <form id="contact-form" action="https://formsubmit.co/fachiuzze@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New investor inquiry - Open Road Carrier">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Tell us about your investment goals" rows="3" required></textarea>
+            <button type="submit" class="button">Send</button>
+          </form>
+          <p id="form-error" class="form-error" role="alert" hidden>Something went wrong sending your message. Please try again, or email us directly.</p>
+          <p id="form-success" class="form-success" role="status" hidden>Thanks for reaching out &mdash; we'll get back to you soon.</p>
+          <p class="disclaimer">This site is for informational purposes only and does not constitute an offer to sell, or a solicitation of an offer to buy, any securities. All investments carry risk, including possible loss of principal. Contact us directly for full terms and risk disclosures.</p>
+          <div class="slide-footer">
+            <img src="assets/logo-white.png" alt="Open Road" class="footer-logo">
+            <p>&copy; 2026 Open Road Carrier. All rights reserved.</p>
+          </div>
+        </div>
+      </section>
+
     </div>
-  </footer>
+  </div>
+
+  <div class="slide-progress" aria-hidden="true"></div>
 
   <script src="script.js"></script>
 </body>
