@@ -891,8 +891,28 @@ h1, h2, h3, h4 {
     grid-template-columns: 1fr;
   }
 
+  .calc-results {
+    grid-template-columns: 1fr;
+  }
+
   .steps-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* The hover-reveal description is absolutely positioned (deliberately, so
+     it doesn't push the heading above it - see the comment on .step-desc)
+     which is fine in a single row of 4, but at 2-per-row it overlaps the
+     row below. There's no hover on touch anyway, so just show it inline. */
+  .step h4::after {
+    display: none;
+  }
+
+  .step-desc {
+    position: static;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+    margin-top: 0.5rem;
   }
 
   .principles-grid {
